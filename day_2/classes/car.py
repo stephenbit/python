@@ -1,4 +1,7 @@
-class Car:
+from vehicle import *
 
-    def start_engine(self):
-        return "Vrrmmm"
+class Car(Vehicle):
+
+    def __init__(self, number_of_wheels, model):
+        Vehicle.__init__(self, number_of_wheels)
+        self.model = model
