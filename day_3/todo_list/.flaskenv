@@ -1,2 +1,2 @@
 FLASK_APP=todo_list.py
-FLASK_ENV=DEVELOPMENT
+FLASK_ENV=development
